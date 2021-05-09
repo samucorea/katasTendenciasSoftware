@@ -1,0 +1,1 @@
+# Katas de Tendencias de Ingeniería de Software
