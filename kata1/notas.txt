@@ -1,0 +1,8 @@
+19. Write a program to find the numbers greater than the average of the numbers of a given array. Both the input and output are arrays
+
+Input: arreglo de numeros
+Output: arreglo de los numeros mayores que la media del arreglo dado.
+
+1- Calcular la media del arreglo dado.
+2- Comparar si cada numero del arreglo dado es mayor a la media. Si lo es, agregar al arreglo de output.
+3- Retornar el arreglo con los numeros mayores a la media.
