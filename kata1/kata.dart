@@ -10,4 +10,17 @@ num calcularMedia(List<num> arr) {
   return promedio;
 }
 
+List<num> obtenerNumerosMayoresAMedia(List<num> arr) {
+  num media = calcularMedia(arr);
+  List<num> numerosMayoresAlArregloDado = [];
+
+  arr.forEach((numero) {
+    if (numero > media) {
+      numerosMayoresAlArregloDado.add(numero);
+    }
+  });
+
+  return numerosMayoresAlArregloDado;
+}
+
 void main() {}
