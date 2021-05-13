@@ -1,0 +1,18 @@
+19. Write a program to find the numbers greater than the average of the numbers of a given array. Both the input and output are arrays
+
+[6,3,4,5,7]
+input: arreglo de numeros
+output: arreglo de los numeros del arreglo mayores al promedio del mismo
+
+Promedio = 5
+
+Ordenar el arreglo
+
+[3,4,5,6,7]
+
+3 > 5 ? no
+4 > 5 ? no
+5 > 5 ? no
+6 > 5 -> indice = 3
+
+Arreglo final: un arreglo del indice encontrado hasta el final del arreglo inicial.
