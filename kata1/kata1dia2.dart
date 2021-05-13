@@ -13,6 +13,29 @@ num getMean(List<num> arr)
   return mean;
 
 }
+
+
+List<num> getNumbersOfArrayHigherThanMeanArray(List<num> arr)
+{
+  num mean = getMean(arr);
+  int indice = 0;
+
+  arr.sort();
+
+  for(int i = 0; i < arr.length; i++)
+  {
+    if(arr[i] > mean)
+    {
+      indice = i;
+    }
+  }
+
+  List<num> numbersOfArrayHigherThanMeanArray = arr.getRange(indice, arr.length).toList();
+
+  return numbersOfArrayHigherThanMeanArray;
+
+
+}
 int main()
 {
 
