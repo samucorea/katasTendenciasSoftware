@@ -3,7 +3,7 @@
 Input: arreglo de numeros
 Output: arreglo de los numeros mayores a la media del arreglo de numeros dado
 
-1- Calcular la media del arreglo de nums dado.
+1- Calcular la media del arreglo de nums dado. X
 2- Ordenar de menor a mayor el arreglo.
 3- Iterar el arreglo hasta encontrar un numero mayor que la media.
 4- Tomar indice del primero numero encontrado, y tomar los numeros restantes del arreglo.
