@@ -27,8 +27,9 @@ List<num> getNumbersHigherThanMean(List<num> arr) {
   return numbersHigherThanMean;
 }
 
-void main() {
-  List<num> numbers = [3, 4, 5, 6, 7, 8];
+void main(List<String> args) {
+  List<num> numbers = args.map((n) => num.parse(n)).toList();
 
   print(getNumbersHigherThanMean(numbers));
+  print("\n");
 }
